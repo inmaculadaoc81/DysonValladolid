@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://globalacer.es/sitemap.xml
+Sitemap: https://dysonrepair.example/sitemap.xml
