@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dysonrepair.example/sitemap.xml
