@@ -18,3 +18,16 @@ footer{background:#07090e;color:#cbd2dd;padding:42px 0}.foot{display:grid;grid-t
 .float-wa,.float-chat{position:fixed;right:20px;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;z-index:50;box-shadow:0 10px 25px #0004}.float-wa{bottom:86px;background:#20d467;color:#fff}.float-chat{bottom:20px;background:#a83cf2;color:#fff;font-size:24px}.wa-svg{width:27px;height:27px}
 @media(max-width:900px){.links{display:none}.mobile{display:block;margin-left:auto}.hero-grid{grid-template-columns:1fr}.hero-copy{padding:48px 0}.hero-side{min-height:500px}.actions{grid-template-columns:1fr}.btn.call{grid-column:auto}.trust-grid{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr 1fr}.models{grid-template-columns:1fr 1fr}.repair,.contact-form{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.foot{grid-template-columns:1fr}.logo{max-width:65vw}}
 @media(max-width:520px){.cards,.process,.trust-grid{grid-template-columns:1fr}.hero h1{font-size:42px}.contact-card{width:92%}}
+
+/* Menús desplegables */
+.dropdown{position:relative}
+.dropdown-toggle{appearance:none;border:0;background:transparent;color:#fff;font:inherit;font-weight:750;cursor:pointer;padding:25px 0;display:flex;align-items:center;gap:8px}
+.chev{width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin-top:-4px;transition:.18s}
+.dropdown.open .chev{transform:rotate(225deg);margin-top:4px}
+.dropdown-menu{display:none;position:absolute;top:62px;left:-18px;width:320px;max-height:58vh;overflow:auto;background:#0e141d;border:1px solid #303846;border-radius:12px;padding:9px;box-shadow:0 20px 55px #0009;z-index:80}
+.dropdown-menu a{display:block;padding:10px 12px;border-radius:8px;color:#e8edf4;font-size:14px}
+.dropdown-menu a:hover{background:#1b2431;color:#c45eff}
+.dropdown.open .dropdown-menu,.dropdown:hover .dropdown-menu{display:block}
+#status.success{color:#16813b;font-weight:800}
+#status.error{color:#c62828;font-weight:800}
+@media(max-width:900px){.dropdown-menu{position:fixed;left:4%;right:4%;top:78px;width:auto;max-height:70vh}}

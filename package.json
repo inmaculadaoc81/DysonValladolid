@@ -1,1 +1,11 @@
-{"name":"dysonrepair-valladolid","version":"1.0.0","private":true,"engines":{"node":"24.x"},"dependencies":{"googleapis":"^144.0.0"}}
+{
+  "name": "dysonrepair-valladolid",
+  "version": "1.0.1",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
