@@ -1,11 +1,11 @@
 {
-  "name": "dysonrepair-valladolid",
-  "version": "1.0.1",
+  "name": "dysontech-dyfix",
+  "version": "1.0.0",
   "private": true,
   "engines": {
-    "node": "24.x"
+    "node": "22.x"
   },
   "dependencies": {
-    "googleapis": "^144.0.0"
+    "nodemailer": "^6.9.16"
   }
 }

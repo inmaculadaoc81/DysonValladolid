@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="84" viewBox="0 0 360 84">
-<rect width="360" height="84" fill="none"/>
-<g transform="translate(8 9)">
-<path d="M30 2C12 7 7 21 16 32c8 10 25 5 24-7-1-9-12-12-18-6 5-1 9 2 9 6 0 5-7 7-10 3-6-7 0-16 10-18 13-3 25 6 24 20-1 19-18 29-36 27" fill="none" stroke="#9b35ef" stroke-width="7" stroke-linecap="round"/>
-</g>
-<text x="76" y="48" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" fill="#fff">Dyson<tspan fill="#a83cf2">Repair</tspan></text>
-<text x="78" y="68" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="2.5" fill="#cfd4df">SERVICIO TÉCNICO · VALLADOLID</text>
-</svg>
