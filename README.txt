@@ -2,13 +2,13 @@ DYSONTECH VALLADOLID ONE PAGE
 
 Zona: Valladolid (España)
 
-Dominio: https://dyfix.eu/ (PENDIENTE DE CONFIRMAR — es el dominio de
-la versión de Madrid, DyFix. Este repo partía de una copia exacta de
-DyFix sin adaptar. Se han corregido los textos, la marca y la
-dirección para que no muestren datos de Madrid, pero canonical,
-og:url, robots.txt, sitemap.xml y el "url" del JSON-LD siguen
-apuntando a dyfix.eu hasta que se confirme el dominio real de
-Valladolid.)
+Dominio: https://valladolidserviciotecnico.es/
+(CONFIRMADO por el cliente. Corregido en canonical, og:url, JSON-LD,
+robots.txt y sitemap.xml — antes apuntaban a dyfix.eu, el dominio de
+la versión de Madrid. El teléfono y el enlace/iframe de Google Maps sí
+se mantienen igual que en DyFix Madrid de forma intencional, según
+confirmación del cliente: esta web está destinada a Valladolid pero
+comparte esos datos de contacto con la versión de Madrid.)
 
 Teléfono caja y botones: +34 910 05 48 17 (mantenido tal cual, según
 indicación del cliente)
@@ -65,8 +65,8 @@ REVISIÓN (fixes aplicados en esta pasada):
   funciona. Nosotros lo dejamos como nuevo." Tamaño del H1 aumentado:
   clamp(38-55px) → clamp(46-73px) en escritorio, 39px → 47px en móvil.
 
-AVISOS PENDIENTES (heredados, no resueltos en esta pasada):
-- Confirmar si https://dyfix.eu/ es realmente el dominio de
-  DysonTech Valladolid o si sigue siendo el de la versión de Madrid.
-- Confirmar si el enlace/iframe de Google Maps corresponde a una
-  ubicación de Valladolid o si sigue apuntando a Madrid.
+AVISOS RESUELTOS EN ESTA PASADA:
+- Dominio confirmado por el cliente: https://valladolidserviciotecnico.es/
+  (corregido en canonical, og:url, JSON-LD, robots.txt, sitemap.xml).
+- Teléfono y Google Maps: confirmado por el cliente que se mantienen
+  igual que en DyFix Madrid de forma intencional; no se han tocado.
