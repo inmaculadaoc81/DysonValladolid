@@ -70,3 +70,25 @@ AVISOS RESUELTOS EN ESTA PASADA:
   (corregido en canonical, og:url, JSON-LD, robots.txt, sitemap.xml).
 - Teléfono y Google Maps: confirmado por el cliente que se mantienen
   igual que en DyFix Madrid de forma intencional; no se han tocado.
+
+REVISIÓN ADICIONAL (checklist unificado de la familia, a petición del cliente):
+- H1 repetía la plantilla "no funciona" usada en varios repos.
+  Reescrito con síntoma específico y distinto del de DyFix (repo
+  hermano de Madrid): "Tu Dyson no aspira o se apaga sola. La
+  revisamos." (10 palabras).
+- BUG REAL — texto decorativo ".fast-art:before" ("2 h", 150px) sin
+  reducción de tamaño en móvil/tablet, mismo bug ya corregido en
+  DyFix (comparten plantilla). Añadida reducción (90px tablet, 56px
+  móvil).
+- Enlace de política de privacidad: la casilla existía pero sin
+  enlace. Añadido a https://kelatos.com/privacy-policy/, en azul y
+  subrayado.
+- El aviso de servicio independiente solo estaba en letra pequeña.
+  Añadida la franja destacada bajo el menú.
+- Añadido "Sábados, domingos y días festivos estamos cerrados" debajo
+  del horario.
+- Botón "Atención Telefónica..." sin icono, a diferencia del de
+  WhatsApp. Añadido (verificado con cuidado el cierre de </a>).
+- Verificado: schema.org ya usaba correctamente el teléfono de la
+  caja de información; formulario correctamente conectado a
+  /api/contacto.
