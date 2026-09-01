@@ -1,5 +1,23 @@
 DYSONTECH VALLADOLID ONE PAGE
 
+REVISIÓN ADICIONAL (checklist unificado de la familia, a petición del cliente — repo 6/48):
+- BUG REAL — enlace de Cal.com desactualizado. Actualizado a
+  https://cal.com/kelatos/30min?embed=true&theme=light&attendeePhoneNumber=%2B34&overlayCalendar=true.
+- Verificado: el correo soporte@kelatos.com no aparece visible.
+- BUG REAL — el mensaje prellenado de WhatsApp decía "¡Hola Kelatos!".
+  Corregido a "¡Hola DysonTech Valladolid!" en el CTA del hero y en
+  el botón flotante.
+- Verificado: el menú móvil ya cierra correctamente al seleccionar un
+  enlace.
+- Verificado: sin iconos ni imágenes con proporciones fijas
+  incorrectas.
+- BUG REAL — mismo bug que en el repo hermano DyFix (comparten
+  plantilla): el H1 en móvil estaba en 47px. Corregido a 48px.
+- BUG REAL — mismo bug que en DyFix: botones del hero (.cta) con
+  border-radius de 15px y sin estado hover. Aumentado a
+  border-radius:999px; añadido filter:brightness(.88) en wa/pickup y
+  fondo navy sólido con texto blanco en el botón de teléfono.
+
 Zona: Valladolid (España)
 
 Dominio: https://valladolidserviciotecnico.es/
