@@ -18,6 +18,15 @@ REVISIÓN ADICIONAL (checklist unificado de la familia, a petición del cliente 
   border-radius:999px; añadido filter:brightness(.88) en wa/pickup y
   fondo navy sólido con texto blanco en el botón de teléfono.
 
+REVISIÓN ADICIONAL (a petición del cliente, con captura de pantalla
+del repo hermano DyFix):
+- La franja de insignias (.badges-strip) en este repo ya estaba bien
+  ubicada, fuera del hero (a diferencia de DyFix, donde sí estaba mal
+  colocada debajo del H1). Solo se ha actualizado el layout de
+  .badges de flex-wrap a grid: 4 columnas en escritorio/tablet, 2
+  columnas en móvil (≤600px), para mantener el mismo criterio pedido
+  para toda la familia.
+
 Zona: Valladolid (España)
 
 Dominio: https://valladolidserviciotecnico.es/
