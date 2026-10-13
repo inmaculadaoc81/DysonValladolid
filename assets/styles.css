@@ -38,3 +38,4 @@ footer{background:#10151d;color:#fff;padding:34px 0}.footer{display:flex;justify
 .servicios-vacio{color:var(--muted);margin-top:26px}
 @media(max-width:900px){.servicios-lista{grid-template-columns:1fr}}
 .quote:hover{filter:brightness(.88)}
+.quote svg{width:20px!important;height:20px!important;max-width:20px!important;max-height:20px!important;flex:0 0 20px!important}
